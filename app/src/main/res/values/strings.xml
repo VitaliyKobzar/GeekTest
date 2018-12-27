@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GeekTest</string>
+    <string name="show_weather">Show Weather</string>
+    <string name="change_coordinates">Change Coordinates</string>
+</resources>

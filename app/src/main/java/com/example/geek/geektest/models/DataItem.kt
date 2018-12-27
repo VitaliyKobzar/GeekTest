@@ -1,0 +1,40 @@
+package com.example.geek.geektest.models
+
+import com.google.gson.annotations.SerializedName
+
+data class DataItem(
+    @SerializedName("wind_cdir") val windCdir: String,
+    @SerializedName("rh") val rh: Integer,
+    @SerializedName("pod") val pod: String,
+    @SerializedName("lon") val lon: Double,
+    @SerializedName("pres") val pres: Double,
+    @SerializedName("timezone") val timezone: String,
+    @SerializedName("ob_time") val obTime: String,
+    @SerializedName("country_code") val countryCode: String,
+    @SerializedName("clouds") val clouds: Integer,
+    @SerializedName("vis") val vis: Double,
+    @SerializedName("solar_rad") val solarRad: Double,
+    @SerializedName("state_code") val stateCode: String,
+    @SerializedName("wind_spd") val windSpd: Double,
+    @SerializedName("lat") val lat: Double,
+    @SerializedName("wind_cdir_full") val windCdirFull: String,
+    @SerializedName("slp") val slp: Double,
+    @SerializedName("datetime") val datetime: String,
+    @SerializedName("ts") val ts: Double,
+    @SerializedName("station") val station: String,
+    @SerializedName("h_angle") val hAngle: Double,
+    @SerializedName("dewpt") val dewpt: Double,
+    @SerializedName("uv") val uv: Double,
+    @SerializedName("dni") val dni: Double,
+    @SerializedName("wind_dir") val windDir: Integer,
+    @SerializedName("elev_angle") val elevAngle: Double,
+    @SerializedName("ghi") val ghi: Double,
+    @SerializedName("dhi") val dhi: Double,
+    @SerializedName("precip") val precip: Double,
+    @SerializedName("city_name") val cityName: String,
+    @SerializedName("weather") val weather: Weather,
+    @SerializedName("sunset") val sunset: String,
+    @SerializedName("temp") val temp: Double,
+    @SerializedName("sunrise") val sunrise: String,
+    @SerializedName("app_temp") val appTemp: Double
+)
